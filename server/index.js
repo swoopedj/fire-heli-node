@@ -10,7 +10,7 @@ app.get('/*', (req, res) => {
   res.sendFile(assetFolder + '/index.html');
 });
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 80;
 app.listen(port, function(){
   console.log('listening on port '+ port);
 });
